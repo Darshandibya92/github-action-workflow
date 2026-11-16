@@ -2,10 +2,10 @@ name: dibya das
 
 on:
  push:
-  branches: [main]
+   branches: [main]
 
   jobs:
-   demo:
+   demopops:
     runs-on : ubuntu-latest
 
     steps:
