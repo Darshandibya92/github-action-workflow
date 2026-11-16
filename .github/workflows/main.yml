@@ -1,0 +1,14 @@
+name: dibya das
+
+on:
+ push:
+  branches: [main]
+
+  jobs:
+   demo:
+    runs-on : ubuntu-latest
+
+    steps:
+       - name: Greeting
+         run: echo "only quality people!!"
+    
